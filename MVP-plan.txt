@@ -1,0 +1,18 @@
+BirthdayBonus
+
+This project will get birth months' deals based off a user's meals or beaty preference.
+They will be able to select meals type or beaty type to get birthday/birth month deals from
+various brands/commercials. Users are able to add new birthday deals to webpage if deals not 
+there yet. 
+
+MVP
+-selecting meals and beaty to get appropriate deals on home page
+-directing to "How it works" page in nav bar
+-adding new deals to the list on new post page
+
+Stretch Goals
+-updating or deleting outdated deal lists
+
+I personally love to keep an eye on coupons or deals on meals and beaty, 
+let's make a special birthday deal collections blog. I start to search some html template if match 
+the functionalites of this simple application.
