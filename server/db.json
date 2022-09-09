@@ -2,18 +2,42 @@
     {
        "id": 1,
        "imageURL": "https://www.sephora.com/contentimages/BI/bi_hq/birthday/2022/desktop/2022-7-1-q3-q4-birthday-tiergating-bundle-a-site-desktop-landing-page-buying-guide-without-side-nav-en-us-ca-980x606.jpg?imwidth=980",
-       "title": "Sephora Birthday Gift",
+       "title": "Sephora",
        "details": "Free Charlotte Tilbury Birthday Gift Set for VIB Exclusive",
        "link": "https://www.sephora.com/product/charlotte-tilbury-charlotte-tilbury-birthday-gift-set-P480419?icid2=bi_birthday_image_d_1_gift_jul_sept_charlotte_tilbury",
-       "type": "Beaty"
+       "type": "Beauty"
     },
     {
         "id": 2,
         "imageURL": "https://media.ulta.com/i/ulta/2579005?w=720",
-        "title": "Ulta Sept Birth Month Gift",
+        "title": "Ulta",
         "details": "Free Drybar Dentangler for Ultamate rewards members born in Sept",
         "link": "https://www.ulta.com/p/prep-rally-prime-prep-detangler-pimprod2024578?sku=2579005&_requestid=7979591&AID=164999&PID=116548&CID=af_164999_116548_&clickId=R5bRSqQVSxyIW9WXy-VyQ0qtUkDR4i0000000w0&SubID=&utm_medium=affiliate&utm_source=116548&utm_campaign=Content&utm_content=core&irgwc=1",
-        "type": "Beaty"
+        "type": "Beauty"
+    },
+    {
+        "id": 3,
+        "imageURL": "https://makeupbonuses.com/wp-content/uploads/2018/06/NARSBirthday2018.jpg",
+        "title": "NARS Cosmetics",
+        "details": "Free full-size lip gloss with a $50+ purchase for your birthday for an account with NARS Cosmetics.",
+        "link": "https://www.narscosmetics.com/USA/pulsion-lip-gloss/0607845056942.html",
+        "type": "Beauty"
+    },
+    {
+        "id": 4,
+        "imageURL": "https://makeupbonuses.com/wp-content/uploads/2017/05/Kiehls-Birthday-Gift-MakeupBonuses.com-2017.jpg",
+        "title": "Kiehl's",
+        "details": "Free Lip Balm #1 with any purchase within birthday month for the Kiehl's loyalty program",
+        "link": "https://www.kiehls.com/skincare/lip-balms-lip-treatments/lip-balm-%231/307.html",
+        "type": "Beauty"
+    },
+    {
+        "id": 5,
+        "imageURL": "https://makeupbonuses.com/wp-content/uploads/2018/07/EsteeLauderBirthday2018.jpg",
+        "title": "Estee Lauder",
+        "details": "2 free birthday gifts of Re-Nutriv: Ultimate Diamond Creme or eye creme",
+        "link": "https://www.esteelauder.com/product/676/35652/product-catalog/re-nutriv/re-nutriv-eye-cream-treatment/re-nutriv/ultimate-diamond-transformative-energy-eye-creme?size=0.5_oz.",
+        "type": "Beauty"
     },
     {
         "id": 3,
@@ -21,14 +45,22 @@
         "title": "",
         "details": "",
         "link": "",
-        "type": "Beaty"
+        "type": ""
     },
     {
-        "id": 4,
+        "id": 3,
         "imageURL": "",
         "title": "",
         "details": "",
         "link": "",
-        "type": "Beaty"
+        "type": ""
+    },
+    {
+        "id": 3,
+        "imageURL": "",
+        "title": "",
+        "details": "",
+        "link": "",
+        "type": ""
     }
 ]

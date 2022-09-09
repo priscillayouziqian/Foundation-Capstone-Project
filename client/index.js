@@ -2,6 +2,7 @@
 
 //submit button
 const getParamsSubmit = document.getElementById('getParamsSubmit');
+const form = document.querySelector('form');
 //input
 const paramsInput = document.getElementById('params-input');
 //response section
@@ -10,9 +11,14 @@ const responseSection = document.getElementById('deals');
 //step 2, write callback functions
 //handle submit
 function getParams(){
-    axios.get(`http://localhost:5050/home/${paramsInput.value}`)
-    .then(res => addToView([res.data]))
+    axios.get(`http://localhost:5050/home/deals/${paramsInput.value}`)
+    .then(res => {
+        console.log(res.data)
+        addToView(res.data)
+    })
 };
+
+
 
 //handle response
 function addToView(dataArr){
@@ -50,3 +56,4 @@ function addToView(dataArr){
 
 //step 3, combine elements and functions using eventListeners
 getParamsSubmit.addEventListener("click", getParams);
+
