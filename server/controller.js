@@ -1,5 +1,5 @@
 const birthdayDeals = require('./db.json');
-const globalId = 6;
+const globalId = 11;
 
 module.exports = {
     getDeals: (req, res) => {

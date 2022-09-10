@@ -32,7 +32,7 @@ function addToView(dataArr){
         const p = document.createElement('p');
 
 
-        div.classList = "w3-quarter";
+        div.classList = "w3-quarter hover";
 
         a.href = item.link;
         a.target = "_blank";

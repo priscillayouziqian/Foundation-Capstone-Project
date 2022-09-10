@@ -1,3 +1,52 @@
 .w3-quarter img{
     width: 100%;
 }
+
+div.hover:hover{
+    transform: scale(1.15);
+    background: rgb(243, 241, 241);
+    border: 2px dashed #5F576C;
+}
+
+.main{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#select-box, .post-box{
+  
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* How it works page */
+.howitworks-box{
+    border: 3px dashed #EF6B63;
+    margin: 10%;
+    padding: 2%;
+}
+
+#myBirthdayBonus{
+    margin-right: 5%;
+    color:honeydew;
+    font-weight: bolder;
+    background-image: url(https://pikwizard.com/photos/sweet-candy-confectionery--3d3ddea468afdcad11c8e92b263d280c-m.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* New Post page */
+.post-box{
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 3px dashed #EF6B63;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

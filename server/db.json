@@ -38,5 +38,45 @@
         "details": "2 free birthday gifts of Re-Nutriv: Ultimate Diamond Creme or eye creme",
         "link": "https://www.esteelauder.com/product/676/35652/product-catalog/re-nutriv/re-nutriv-eye-cream-treatment/re-nutriv/ultimate-diamond-transformative-energy-eye-creme?size=0.5_oz.",
         "type": "Beauty"
+    },
+    {
+        "id": 6,
+        "imageURL": "https://makeupbonuses.com/wp-content/uploads/2018/08/AvedaBirthday2018new.jpg",
+        "title": "AVEDA",
+        "details": "30ml aromatic nourishing composition oil with purchase",
+        "link": "https://www.aveda.com/birthday",
+        "type": "Beauty"
+    },
+    {
+        "id": 7,
+        "imageURL": "https://coffeeatthree.com/wp-content/uploads/starbucks-birthday-reward-1a.jpg",
+        "title": "Starbucks",
+        "details": "Free complimentary hancrafted beverage OR food item",
+        "link": "https://www.starbucks.com/rewards",
+        "type": "Meals"
+    },
+    {
+        "id": 8,
+        "imageURL": "https://www.favoritecandle.com/FCphotos/Blog_Images/DUNKIN/Dunkin-birthday-greeting.jpg",
+        "title": "Dunkin' Donuts",
+        "details": "Any hot or cold beverage free",
+        "link": "https://www.starbucks.com/rewards",
+        "type": "Meals"
+    },
+    {
+        "id": 9,
+        "imageURL": "https://www.thesun.co.uk/wp-content/uploads/2021/03/77b57e12-1b80-4238-9aba-b01d5213692b-1.jpg?w=670",
+        "title": "McDonald's",
+        "details": "Free McChicken, Cheeseburger, Large Fries, Hash Browns or Vanilla Cone via the app",
+        "link": "https://www.mcdonalds.com/us/en-us/mymcdonalds.html",
+        "type": "Meals"
+    },
+    {
+        "id": 10,
+        "imageURL": "https://external-preview.redd.it/gmLliR7bfGMs2r7vn0Xz-v9KAw_CMm4dHKPLCd-IZ8M.png?width=640&crop=smart&auto=webp&s=9fb9a7115308f701af6c342183404b6d0639c2d7",
+        "title": "Tim Hortons",
+        "details": "Free breakfast sandwich or beverage",
+        "link": "https://www.timhortons.com/timsrewards",
+        "type": "Meals"
     }
 ]
