@@ -2,7 +2,6 @@
 
 //submit button
 const getParamsSubmit = document.getElementById('getParamsSubmit');
-const form = document.querySelector('form');
 //input
 const paramsInput = document.getElementById('params-input');
 //response section
@@ -16,9 +15,10 @@ function getParams(){
         console.log(res.data)
         addToView(res.data)
     })
+    .catch(err => console.log(err))
 };
 
-
+getParams();//call the get request automatically without any click/submit events.
 
 //handle response
 function addToView(dataArr){

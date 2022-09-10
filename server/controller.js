@@ -1,4 +1,5 @@
 const birthdayDeals = require('./db.json');
+const globalId = 6;
 
 module.exports = {
     getDeals: (req, res) => {
@@ -6,19 +7,31 @@ module.exports = {
         console.log(req.params)
         console.log(type);
 
-        // const index = birthdayDeals.findIndex(elem => elem.type === type);
-        // console.log(index) //0, expect to get all index with type Beaty, it should be 0 and 1.
-
-        const filterArr = birthdayDeals.filter(elem => elem.type === type);
-        console.log(filterArr);
-       
-        // res.status(200).send(birthdayDeals[index]);
-        res.status(200).send(filterArr);
+        if(type === 'All'){
+            res.status(200).send(birthdayDeals); //if type is all, send all deals back to the page, including meals and beauty.
+        }else{ 
+            //if select other types, send specific deals that have selected types.
+            const filterArr = birthdayDeals.filter(elem => elem.type === type);
+            // console.log(filterArr); 
+            res.status(200).send(filterArr);
+        }
+        
         
 
     },
     postDeals:(req, res) => {
         console.log(req.body);
-        res.status(200).send(req.body);
+        let {imageURL, title, details, link, type} = req.body;
+        const newDeal = {
+            id: globalId,
+            imageURL,
+            title: title,
+            details,
+            link,
+            type
+        };
+        birthdayDeals.push(newDeal);
+        res.status(200).send(birthdayDeals); 
+        globalId++;
     }
 }

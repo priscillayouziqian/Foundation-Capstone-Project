@@ -1,17 +1,30 @@
+//step 1, grab newpost html <form> element
+const form = document.querySelector('form');
+
+//step 2, write callback function for post request
 function createDeals(e){
     e.preventDefault();
+
+    let imageURL = document.querySelector('#imageURL');
+    let title = document.querySelector('#title');
+    let details = document.querySelector('#details');
+    let link = document.querySelector('#link');
+    let type = document.querySelector('#selectType');
+
     const body = {
-        "id": 20,
-       "imageURL": "https://www.sephora.com/contentimages/BI/bi_hq/birthday/2022/desktop/2022-7-1-q3-q4-birthday-tiergating-bundle-a-site-desktop-landing-page-buying-guide-without-side-nav-en-us-ca-980x606.jpg?imwidth=980",
-       "title": document.querySelector('#title').value,
-       "details": "Free birthday gift",
-       "link": "https://www.sephora.com/product/charlotte-tilbury-charlotte-tilbury-birthday-gift-set-P480419?icid2=bi_birthday_image_d_1_gift_jul_sept_charlotte_tilbury",
-       "type": "Beauty"
+       "imageURL": imageURL.value,
+       "title": title.value,
+       "details": details.value,
+       "link": link.value,
+       "type": type.value
     }
     axios.post('http://localhost:5050/home/newpost', body)
     .then(res => {
-        console.log(res.data);
+        console.log(res.data); //shows in browser
+        location.assign("index.html") //browser redirect the page to home page when the event click happens
     })
-}
+    .catch(err => console.log(err))
+};
 
+//step 3, combine elements and functions using event listeners.
 form.addEventListener("submit", createDeals);

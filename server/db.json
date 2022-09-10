@@ -1,7 +1,7 @@
 [
     {
        "id": 1,
-       "imageURL": "https://www.sephora.com/contentimages/BI/bi_hq/birthday/2022/desktop/2022-7-1-q3-q4-birthday-tiergating-bundle-a-site-desktop-landing-page-buying-guide-without-side-nav-en-us-ca-980x606.jpg?imwidth=980",
+       "imageURL": "https://makeupbonuses.com/wp-content/uploads/2019/01/Sephora-Birthday-2019.jpg",
        "title": "Sephora",
        "details": "Free Charlotte Tilbury Birthday Gift Set for VIB Exclusive",
        "link": "https://www.sephora.com/product/charlotte-tilbury-charlotte-tilbury-birthday-gift-set-P480419?icid2=bi_birthday_image_d_1_gift_jul_sept_charlotte_tilbury",
@@ -38,29 +38,5 @@
         "details": "2 free birthday gifts of Re-Nutriv: Ultimate Diamond Creme or eye creme",
         "link": "https://www.esteelauder.com/product/676/35652/product-catalog/re-nutriv/re-nutriv-eye-cream-treatment/re-nutriv/ultimate-diamond-transformative-energy-eye-creme?size=0.5_oz.",
         "type": "Beauty"
-    },
-    {
-        "id": 3,
-        "imageURL": "",
-        "title": "",
-        "details": "",
-        "link": "",
-        "type": ""
-    },
-    {
-        "id": 3,
-        "imageURL": "",
-        "title": "",
-        "details": "",
-        "link": "",
-        "type": ""
-    },
-    {
-        "id": 3,
-        "imageURL": "",
-        "title": "",
-        "details": "",
-        "link": "",
-        "type": ""
     }
 ]
