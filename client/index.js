@@ -2,10 +2,13 @@
 
 //submit button
 const getParamsSubmit = document.getElementById('getParamsSubmit');
+// const toggleBtn = document.querySelector('toggle');
 //input
 const paramsInput = document.getElementById('params-input');
 //response section
 const responseSection = document.getElementById('deals');
+//hidden paragrah
+// const p = document.querySelector('p');
 
 //step 2, write callback functions
 //handle submit
@@ -20,6 +23,15 @@ function getParams(){
 
 getParams();//call the get request automatically without any click/submit events.
 
+function deleteDeals(id){
+    axios.delete(`http://localhost:5050/home/deals/${id}`)
+    .then(res => {
+        console.log(res.data)
+        addToView(res.data)
+    })
+    .catch(err => console.log(err))
+}
+
 //handle response
 function addToView(dataArr){
     responseSection.innerHTML = null;
@@ -29,6 +41,7 @@ function addToView(dataArr){
         const a = document.createElement('a');
         const img = document.createElement('img');
         const h3 = document.createElement('h3');
+        const buttonToToggle = document.createElement('button');
         const p = document.createElement('p');
 
 
@@ -46,14 +59,31 @@ function addToView(dataArr){
         h3.appendChild(title);
         div.appendChild(h3);
 
+        buttonToToggle.classList = "toggle";
+        const detail = document.createTextNode("detail");
+        buttonToToggle.appendChild(detail);
+        div.appendChild(buttonToToggle);
+
         const details = document.createTextNode(item.details)
         p.appendChild(details);
         div.appendChild(p);
 
+        div.innerHTML += `<button onclick="deleteDeals(${item.id})" id="deleteBtn">X</button>`
+
         responseSection.appendChild(div)
+
+        //try feature, to show up P tag-details of deals by clicking the detail button.
+       
+        buttonToToggle.addEventListener('click', testing);
     })
 }
 
+function testing(){
+    console.log("testing!")
+}
+
+
 //step 3, combine elements and functions using eventListeners
 getParamsSubmit.addEventListener("click", getParams);
+
 
