@@ -1,0 +1,28 @@
+Hi everyone, my name is Zhaoyi Yan. And this is my foundation capstone project.
+Welcome to Brithday Deals. This is an application I created because I'll miss good
+birthday deals if I don't check my emails often. 
+
+So I created a site where all users could come together, share deals they found. 
+
+For this project, I use JavaScript, NodeJS, HTML template, CSS, express and axios.
+What you are at now, is the home page. 
+
+On the top, you can select types by clicking submit button. The page is interactive, 
+feel free to mouse over the picture of any
+post, you'll get a bigger version of the picture. And Clicking detail button to
+view details. Or feel free to clik the picture which will direct you
+to the vendor's webpage in a new tap for further details.If you find the post is 
+not up-to-date, you can click the delete button
+on the upper right of the post.
+
+Let's head to the how it works page by clicking menu bar on the left. Here is
+an introduction for new users. You can simply click header on top which brings 
+you back to the home page.
+
+Let's create a new post~ Lets say you find a deal of Subway, add image, title,
+deal details, Subway's link, and select a type. Hit submit. And you'll automatically
+back to the home page. And look! Your Subway post is on the first column. 
+
+
+That's it for the demostration. Birthday Deals is a fun website to create. 
+Wish you have a wonderful birthday with this useful application!

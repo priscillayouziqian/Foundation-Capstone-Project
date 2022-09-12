@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-div.hover:hover{
+img:hover{
     transform: scale(1.15);
     background: rgb(243, 241, 241);
     border: 2px dashed #5F576C;
@@ -10,6 +10,7 @@ div.hover:hover{
 
 div.hover{
     position: relative;
+    margin-bottom: 40px;
 }
 
 .main{
@@ -29,6 +30,11 @@ div.hover{
     top:0ch;
     right:0ch;
 }
+
+.pClass{
+    display: none;
+}
+
 
 /* <!-- HTML !-->
 <button class="button-27" role="button">Button 27</button> */
@@ -76,9 +82,7 @@ div.hover{
   transform: translateY(0);
 }
 
-p{
-    display: none;
-}
+
 
 /* How it works page */
 .howitworks-box{
@@ -95,6 +99,10 @@ p{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#myBirthdayBonus > a{
+    text-decoration: none;
 }
 
 /* New Post page */
