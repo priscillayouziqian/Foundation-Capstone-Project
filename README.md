@@ -1,4 +1,4 @@
-# Foundation-Capstone-Project
+# Birthday Deals Project
 
 Birthday Deals is a full-stack application that collects a range of birthday deals from the food and beauty industries. It is specifically designed for individuals who may miss out on great deals if they don't regularly check their emails. By centralizing these deals in one platform, users can conveniently browse and take advantage of the best deals available for their birthday celebrations.
 
